@@ -38,7 +38,7 @@ function App() {
         <div className="intro-section">
           <section id="welcome">
               <h1>Hello, my name is</h1>
-              <h2>Zhandos Brown</h2>
+              <h2>Zhandos Brown.</h2>
               <h3>I'm an artist and software engineer.</h3>
               <p>I'm currently a computer science student at Boston University 
                 who loves to create things and solve problems. Get to know me and my work below.</p>

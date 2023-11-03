@@ -6,6 +6,23 @@ body, h1, h2, p, ul, li, nav, a {
   color: white;
 }
 
+h1 {
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 18.2px;
+}
+
+h2, h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 64px;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200; /* Light */
+  font-size: 25.6px;
+}
+
 body {
   background-color: #1a2533; /* Dark blue from image */
   scroll-snap-type: y mandatory; /* Enables vertical scroll snapping */

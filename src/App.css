@@ -32,9 +32,9 @@ body {
 #logo {
   flex-shrink: 0;
   margin-right: auto;
-  font-size: 24px; /* Adjust size as needed */
+  font-size: 24px;
   font-weight: bold;
-  color: #748aa1; /* Adjust color as needed */
+  color: #748aa1;
 }
 
 nav {
@@ -76,11 +76,6 @@ section {
   padding: 5px 10px;
   border-radius: 3px;
 }
-
-/* .content {
-  padding: 100px 0;
-  text-align: center;
-} */
 
 .content {
   display: flex;
@@ -142,24 +137,10 @@ html {
   scroll-behavior: smooth;
 }
 
-/* .container {
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-} */
-
 .container {
   display: flex;
   flex-direction: column;
 }
-
-/* .intro-section {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 50px;
-} */
 
 .intro-section {
   display: flex;
@@ -186,13 +167,6 @@ html {
   flex: 1;
   padding-right: 20px;
 }
-
-/* .slideshow {
-  width: 350px;
-  height: 350px;
-  perspective: 1000px;
-  margin-right: 40px;
-} */
 
 .slideshow {
   /* Adjust width as necessary */

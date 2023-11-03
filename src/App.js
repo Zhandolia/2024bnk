@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
+
   const handleScrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -27,7 +28,7 @@ function App() {
     <div className="container">
       <div className="menu">
         <nav>
-          <div id="logo" onClick={handleScrollToTop} style={{cursor: 'pointer'}}>ZB</div>
+          <div id="logo" onClick={handleScrollToTop} href="#" style={{cursor: 'pointer'}}>ZB</div>
           <a href="#about">01. About</a>
           <a href="#projects">02. Projects</a>
           <a href="#contact">03. Contact</a>
@@ -49,7 +50,7 @@ function App() {
         </div>
         
         <section id="about">
-          <h1>About Me</h1>
+          <h1>01. About Me</h1>
           <img src="aboutme.jpeg" alt="picture" />
           <p>
             Hailing from Kazakhstan, Central Asia, I'm a Computer Science sophomore at Boston University, 
@@ -64,7 +65,7 @@ function App() {
         </section>
 
         <section id="projects">
-          <h1>Projects</h1>
+          <h1>02. Some Things I've Made</h1>
             <div className="project">
               <h2>Project 1</h2>
               <p>Description of project 1.</p>
@@ -72,8 +73,8 @@ function App() {
         </section>
 
         <section id="contact">
-          <h1>Contact</h1>
-          <p>You can find me on:</p>
+          <h1>03. What's Next?</h1>
+          <p>Get in Touch</p>
           <ul>
             <li><a href="https://www.linkedin.com/in/zhanbrown/">LinkedIn</a></li>
             <li><a href="mailto: zhandos@bu.edu">Email Me</a></li>

@@ -151,3 +151,13 @@ nav a {
   margin: 0; /* Adjusts default margin */
   color: #212121; /* Dark text for readability */
 }
+
+.bold-link {
+  font-weight: bold;
+  color: blue; 
+  text-decoration: none; /* Optional: removes the underline from links */
+}
+
+.bold-link:hover {
+  text-decoration: underline; /* Restores the underline on hover for better user experience */
+}

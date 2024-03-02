@@ -46,6 +46,7 @@ function App() {
 
           <div class="description-container">
             <p>I’m Zhandos (“jan-dos”), and I’m a student at Boston University studying Computer Science. I'm a big fan of hackathons and a current Logistics organizer in the BostonHacks team. During my freshman year, I interned at 80edays as a Software Engineer - contributing to the backend server on engineering the mobile app for the biggest EV rally event in Europe. Following at 80edays, I continued my internship as a Full Stack iOS Developer - by developing the mobile app itself. I'm eager to connect with professionals who share my passion for innovation and envision a transformative tech future.</p>
+            <p>Feel free to contact me at <a href="mailto:zhandos@bu.edu" class="bold-link">zhandos@bu.edu</a> or via <a target="_blank" href="https://www.linkedin.com/in/zhanbrown/" class="bold-link">LinkedIn</a></p>
           </div>
           
           <div class="courses-container">
@@ -79,7 +80,7 @@ function App() {
         </section>
 
         <section id="projects">
-          <h1>02. Some Things I've Made</h1>
+          <h1>02. Personal Projects</h1>
           <div className="project">
             <h2 class="project-title">MyGapMentor | React App</h2>
             <p class="project-description">React.js, Flask, OpenAI API</p>

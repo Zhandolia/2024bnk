@@ -47,12 +47,7 @@ function App() {
           </p> */}
           <div class="courses-container">
             <h2>Relevent Courses</h2>
-            <div class="course">
-              <h3>MA 121: Calculus I</h3>
-            </div>
-            <div class="course">
-              <h3>MA 124: Calculus II</h3>
-            </div>
+            
             <div class="course">
               <h3>CS 111: Intro to CS with Python</h3>
             </div>
@@ -64,6 +59,12 @@ function App() {
             </div>
             <div class="course">
               <h3>CS 132: Geometric Algorithms</h3>
+            </div>
+            <div class="course">
+              <h3>MA 121: Calculus I</h3>
+            </div>
+            <div class="course">
+              <h3>MA 124: Calculus II</h3>
             </div>
           </div>
 

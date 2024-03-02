@@ -32,7 +32,7 @@ function App() {
         
         <section id="about">
           <h1>01. About 👋</h1>
-          <img src="pfp.jpeg" alt="picture" />
+          <img src="prof.jpg" alt="picture" />
           {/* <p>
             Hailing from Kazakhstan, Central Asia, I'm a Computer Science sophomore at Boston University, 
             fluent in Kazakh, Russian, and English, with additional skills in Turkish and Arabic. 

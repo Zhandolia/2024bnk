@@ -134,3 +134,20 @@ nav a {
   color: #212121; /* Dark text for readability */
   margin: 0; /* Adjusts default margin */
 }
+
+.description-container {
+  background-color: #fff; /* White background for the description */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 10px; /* Rounded corners for a smooth look */
+  font-size: 18px; /* Larger font size for readability */
+  line-height: 1.6; /* Increased line height for better readability */
+  text-align: justify; /* Justify text for a polished appearance */
+}
+
+.description-container p {
+  margin: 0; /* Adjusts default margin */
+  color: #212121; /* Dark text for readability */
+}

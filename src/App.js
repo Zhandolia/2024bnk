@@ -43,9 +43,13 @@ function App() {
             I'm eager to connect with professionals who share my passion for innovation and envision 
             a transformative tech future.
           </p> */}
+
+          <div class="description-container">
+            <p>I’m Zhandos (“jan-dos”), and I’m a student at Boston University studying Computer Science. I'm a big fan of competing at hackathons and a current Logistics organizer in BostonHacks team.</p>
+          </div>
+          
           <div class="courses-container">
             <h2>Relevent Courses</h2>
-            
             <div class="course">
               <h3>CS 111: Intro to CS with Python</h3>
             </div>
@@ -64,7 +68,6 @@ function App() {
             <div class="course">
               <h3>CS 237: Probability in Computing</h3>
             </div>
-            
             <div class="course">
               <h3>MA 121: Calculus I</h3>
             </div>

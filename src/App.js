@@ -39,7 +39,7 @@ function App() {
         </section>
         
         <div class="courses-container">
-          <h2>Relevant Courses</h2>
+          <h2>Relevant Courses 🌳</h2>
             <a class="course-button" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-111/">
               <div class="course">
                 <h3>CS 111: Intro to CS with Python</h3>
@@ -88,7 +88,7 @@ function App() {
          </div>
 
         <section id="projects">
-          <h2>02. Personal Projects</h2>
+          <h2>02. Personal Projects 📝</h2>
           <div className="project">
             <h2 class="project-title">OQIGA.AI | React App | <a href="https://oqiga-ai.vercel.app" target="_blank" rel="noopener noreferrer">oqiga-ai.vercel.app</a></h2>
             <p class="project-description"> Engineered pioneering educational platform using React.js for frontend and Flask for backend, featuring interactive storytelling with parental voice integration achieved through IPython and Google Colab with Jupyter Notebook.</p>
@@ -116,7 +116,19 @@ function App() {
         </section>
 
         <section id="awards">
-          <h1>03. Competivive Awards</h1>
+          <h1>03. Competivive Awards 🏆</h1>
+          <div class="award">
+            <h3>2/20 place at MakeHarvard Hackathon</h3>
+          </div>
+          <div class="award">
+            <h3>$50,000 support from Microsoft for Startups Founders Hub</h3>
+          </div>
+          <div class="award">
+            <h3>2/20 place at Data Science Hackathon</h3>
+          </div>
+          <div class="award">
+            <h3>4/100 place at International Robotics Competition</h3>
+          </div>
         </section>
       </div>
     </div>

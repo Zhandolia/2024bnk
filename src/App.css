@@ -183,3 +183,25 @@ nav a {
 .project a:hover {
   text-decoration: underline;
 }
+
+#awards { 
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#awards h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.award {
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px; 
+}
+
+.award h3 {
+  color: #212121;
+  margin: 0; 
+}

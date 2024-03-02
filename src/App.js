@@ -40,7 +40,8 @@ function App() {
           <section id="welcome">
               <h1>Hello, my name is</h1>
               <h2>Zhandos Brown.</h2>
-              <h3>I'm an artist and software engineer.</h3>
+              <h3>I'm an artist and </h3>
+              <h3>software engineer.</h3>
               <p>I'm currently a computer science student at Boston University 
                 who loves to create things and solve problems. Get to know me and my work below.</p>
           </section>
@@ -66,11 +67,24 @@ function App() {
 
         <section id="projects">
           <h1>02. Some Things I've Made</h1>
-            <div className="project">
-              <h2>Project 1</h2>
-              <p>Description of project 1.</p>
-            </div>
+          <div className="project">
+            <h2 class="project-title">MyGapMentor | React App</h2>
+            <p class="project-description">React.js, Flask, OpenAI API</p>
+          </div>
+          <div className="project">
+            <h2 class="project-title">GeoTab | Chrome Extension</h2>
+            <p class="project-description">JavaScript, HTML/CSS</p>
+          </div>
+          <div className="project">
+            <h2 class="project-title">N-Body Simulation</h2>
+            <p class="project-description">Java</p>
+          </div>
+          <div className="project">
+            <h2 class="project-title">Project 4</h2>
+            <p class="project-description">Description of project 4.</p>
+          </div>
         </section>
+
 
         <section id="contact">
           <h1>03. What's Next?</h1>

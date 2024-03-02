@@ -33,23 +33,14 @@ function App() {
         <section id="about">
           <h1>01. About 👋</h1>
           <img src="prof.jpg" alt="picture" />
-          {/* <p>
-            Hailing from Kazakhstan, Central Asia, I'm a Computer Science sophomore at Boston University, 
-            fluent in Kazakh, Russian, and English, with additional skills in Turkish and Arabic. 
-            My tech journey began with high school robotics and was amplified at 80edays, Germany, 
-            where I played a pivotal role in the ChargeHotels iOS application, both in development 
-            and UI design. As the founder of MyGapMentor, I crafted a platform that empowers gap 
-            year students using OpenAI, a project that secured significant funding and recognition. 
-            I'm eager to connect with professionals who share my passion for innovation and envision 
-            a transformative tech future.
-          </p> */}
-
+          
           <div class="description-container">
             <p>I’m Zhandos (“jan-dos”), and I’m a student at Boston University studying Computer Science. I'm a big fan of hackathons and a current Logistics organizer in the BostonHacks team. During my freshman year, I interned at 80edays as a Software Engineer - contributing to the backend server on engineering the mobile app for the biggest EV rally event in Europe. Following at 80edays, I continued my internship as a Full Stack iOS Developer - by developing the mobile app itself. I'm eager to connect with professionals who share my passion for innovation and envision a transformative tech future.</p>
             <p>Feel free to contact me at <a href="mailto:zhandos@bu.edu" class="bold-link">zhandos@bu.edu</a> or via <a target="_blank" href="https://www.linkedin.com/in/zhanbrown/" class="bold-link">LinkedIn</a></p>
           </div>
-          
-          <div class="courses-container">
+        </section>
+
+        <div class="courses-container">
             <h2>Relevent Courses</h2>
             <div class="course">
               <h3>CS 111: Intro to CS with Python</h3>
@@ -75,28 +66,34 @@ function App() {
             <div class="course">
               <h3>MA 124: Calculus II</h3>
             </div>
-          </div>
-
-        </section>
+         </div>
 
         <section id="projects">
-          <h1>02. Personal Projects</h1>
+          <h2>02. Personal Projects</h2>
           <div className="project">
-            <h2 class="project-title">MyGapMentor | React App</h2>
-            <p class="project-description">React.js, Flask, OpenAI API</p>
+            <h2 class="project-title">OQIGA.AI | React App | <a href="https://oqiga-ai.vercel.app" target="_blank" rel="noopener noreferrer">oqiga-ai.vercel.app</a></h2>
+            <p class="project-description"> Engineered pioneering educational platform using React.js for frontend and Flask for backend, featuring interactive storytelling with parental voice integration achieved through IPython and Google Colab with Jupyter Notebook.</p>
+            <p>Achieved second place at MakeHarvard 2024 hackathon, demonstrating project’s innovation and impact in educational technology, and garnering significant interest and acclaim.</p> 
           </div>
+
           <div className="project">
-            <h2 class="project-title">GeoTab | Chrome Extension</h2>
-            <p class="project-description">JavaScript, HTML/CSS</p>
+            <h2 class="project-title">MyGapMentor | React App | <a href="https://mygapmentor.vercel.app" target="_blank" rel="noopener noreferrer">mygapmentor.vercel.app</a></h2>
+            <p class="project-description">Developed MyGapMentor, a dynamic OpenAI API-powered platform tailored for gap year students, offering bespoke coaching, strategic opportunity identification, and inventive approaches to bolster university application success.</p>
+            <p>Garnered recognition and funding for MyGapMentor, debuting it as a standout project at nFactorial Incubator 2023, a premier A.I.-focused web development boot camp, chosen from over 4500 candidates. Successfully secured over $50,000 in support from Microsoft for Startups Founders Hub, propelling the project’s growth.</p>
           </div>
+
           <div className="project">
-            <h2 class="project-title">N-Body Simulation</h2>
-            <p class="project-description">Java</p>
+          <h2 class="project-title">GeoTab | Chrome Extension | <a href="https://chromewebstore.google.com/detail/geotab/ifcklilffcpllkallhdaanealofknahe?utm_source=ext_sidebar&hl=en-US" target="_blank" rel="noopener noreferrer">shorturl.at/nxSW8</a></h2>
+            <p class="project-description">Designed and launched Chrome extension game for geography education. It invites users to identify flags, capitals, and their locations of countries worldwide, effectively blending leisure with enrichment of geographical knowledge.</p>
+            <p>Achieved notable accomplishment by securing place within top 4.5% of over 4,000 candidates for nFactorial Incubator 2022, web development boot camp with innovative project development</p>
           </div>
+
           <div className="project">
-            <h2 class="project-title">Project 4</h2>
-            <p class="project-description">Description of project 4.</p>
+          <h2 class="project-title">N-Body Simulation | Java Simulation | <a href="https://github.com/zhandolia/nbody" target="_blank" rel="noopener noreferrer"> github.com/zhandolia/nbody</a></h2>
+            <p class="project-description">Enhanced solar system simulation using Java, blending background imagery, studio-quality sound, and prototypical
+            planet models with mathematical precision. Further enhanced by integrating real astronomical data and interactive features, project achieved greater scientific accuracy and user engagement in visualizing orbital mechanics.</p>
           </div>
+
         </section>
 
         <section id="contact">

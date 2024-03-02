@@ -161,3 +161,16 @@ nav a {
 .bold-link:hover {
   text-decoration: underline; /* Restores the underline on hover for better user experience */
 }
+
+.project {
+  background-color: #fff; /* White background for each course */
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.project h3 {
+  color: #212121; /* Dark text for readability */
+  margin: 0; /* Adjusts default margin */
+}

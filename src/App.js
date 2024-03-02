@@ -24,7 +24,7 @@ function App() {
       <div className="content">
         <div className="intro-section">
           <section id="welcome">
-              <h2>Zhandos Brown.</h2>
+              <h1>Zhandos Brown.</h1>
           </section>
         </div>
         
@@ -88,7 +88,7 @@ function App() {
          </div>
 
         <section id="projects">
-          <h2>02. Personal Projects 📝</h2>
+          <h1>02. Personal Projects 📝</h1>
           <div className="project">
             <h2 class="project-title">OQIGA.AI | React App | <a href="https://oqiga-ai.vercel.app" target="_blank" rel="noopener noreferrer">oqiga-ai.vercel.app</a></h2>
             <p class="project-description"> Engineered pioneering educational platform using React.js for frontend and Flask for backend, featuring interactive storytelling with parental voice integration achieved through IPython and Google Colab with Jupyter Notebook.</p>

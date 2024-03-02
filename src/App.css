@@ -175,6 +175,10 @@ nav a {
   margin: 0; /* Adjusts default margin */
 }
 
+#projects h1 {
+  text-align: center;
+}
+
 .project a {
   color: blue; /* Makes the link color blue */
   text-decoration: none; /* Optional: Removes the underline from links */

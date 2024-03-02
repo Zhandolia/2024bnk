@@ -8,8 +8,8 @@ body, html {
 
 img {
   border-radius: 50%;
-  width: 100px; 
-  height: 100px; 
+  width: 135px; 
+  height: 135px; 
   object-fit: cover; 
 }
 
@@ -68,8 +68,8 @@ nav {
   justify-content: space-around; /* Distributes space evenly around nav items */
   align-items: center; /* Aligns items vertically */
   padding: 20px;
-  background-color: #212121; /* Fancy black background */
-  color: #e8e8e8; /* Fancy white text color */
+  background-color: #fff; /* Fancy black background */
+  color: #212121; /* Fancy white text color */
 }
 
 #logo {
@@ -79,16 +79,15 @@ nav {
 }
 
 nav a {
-  color: #e8e8e8; /* Fancy white text color */
+  color: #212121; /* Fancy white text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.3s;
   text-decoration: none; /* Removes underline */
   margin: 0 15px; /* Spacing between nav items */
   font-size: 16px; /* Larger font size for readability */
-}
-
-nav .resume-link {
-  border: 2px solid #e8e8e8; /* Adds a fancy white border */
+  border: 2px solid #fff; /* Adds a fancy white border */
   padding: 5px 10px;
-  border-radius: 5px; /* Rounded corners */
+  border-radius: 5px;
 }
 
 /* Enhances the introduction section */

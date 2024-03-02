@@ -26,14 +26,12 @@ function App() {
       <div className="content">
         <div className="intro-section">
           <section id="welcome">
-              <h1>Hello, my name is</h1>
               <h2>Zhandos Brown.</h2>
-              <h3>I'm an artist and software engineer.</h3>
           </section>
         </div>
         
         <section id="about">
-          <h1>01. About Me</h1>
+          <h1>01. About 👋</h1>
           <img src="pfp.jpeg" alt="picture" />
           {/* <p>
             Hailing from Kazakhstan, Central Asia, I'm a Computer Science sophomore at Boston University, 

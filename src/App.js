@@ -45,7 +45,7 @@ function App() {
           </p> */}
 
           <div class="description-container">
-            <p>I’m Zhandos (“jan-dos”), and I’m a student at Boston University studying Computer Science. I'm a big fan of competing at hackathons and a current Logistics organizer in BostonHacks team.</p>
+            <p>I’m Zhandos (“jan-dos”), and I’m a student at Boston University studying Computer Science. I'm a big fan of hackathons and a current Logistics organizer in the BostonHacks team. During my freshman year, I interned at 80edays as a Software Engineer - contributing to the backend server on engineering the mobile app for the biggest EV rally event in Europe. Following at 80edays, I continued my internship as a Full Stack iOS Developer - by developing the mobile app itself. I'm eager to connect with professionals who share my passion for innovation and envision a transformative tech future.</p>
           </div>
           
           <div class="courses-container">

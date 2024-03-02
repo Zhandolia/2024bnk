@@ -36,6 +36,10 @@ a:hover {
   color: #757575;
 }
 
+#about h1 {
+  text-align: center;
+}
+
 .experience-item {
   margin-bottom: 15px;
   padding-bottom: 15px;

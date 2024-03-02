@@ -24,13 +24,13 @@ function App() {
       <div className="content">
         <div className="intro-section">
           <section id="welcome">
+              <img src="prof.jpg" alt="picture" /> 
               <h1>Zhandos Brown.</h1>
           </section>
         </div>
         
         <section id="about">
           <h1>01. About 👋</h1>
-          <img src="prof.jpg" alt="picture" />
           
           <div class="description-container">
             <p>I’m Zhandos (“jan-dos”), and I’m a student at Boston University studying Computer Science. I'm a big fan of hackathons and a current Logistics organizer in the BostonHacks team. During my freshman year, I interned at 80edays as a Software Engineer - contributing to the backend server on engineering the mobile app for the biggest EV rally event in Europe. Following at 80edays, I continued my internship as a Full Stack iOS Developer - by developing the mobile app itself. I'm eager to connect with professionals who share my passion for innovation and envision a transformative tech future.</p>

@@ -10,19 +10,19 @@ function App() {
     });
   }
 
-  const images = [
-    'nbody1.png',
-    'nbody2.png'
-  ];
+  // const images = [
+  //   'nbody1.png',
+  //   'nbody2.png'
+  // ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex(prevIndex => (prevIndex + 1) % images.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentIndex(prevIndex => (prevIndex + 1) % images.length);
+  //   }, 5000);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <div className="container">
@@ -40,19 +40,13 @@ function App() {
           <section id="welcome">
               <h1>Hello, my name is</h1>
               <h2>Zhandos Brown.</h2>
-              <h3>I'm an artist and </h3>
-              <h3>software engineer.</h3>
-              <p>I'm currently a computer science student at Boston University 
-                who loves to create things and solve problems. Get to know me and my work below.</p>
+              <h3>I'm an artist and software engineer.</h3>
           </section>
-          <div className="slideshow">
-            <img src={images[currentIndex]} alt="Slide" />
-          </div>
         </div>
         
         <section id="about">
           <h1>01. About Me</h1>
-          <img src="aboutme.jpeg" alt="picture" />
+          <img src="pfp.jpeg" alt="picture" />
           <p>
             Hailing from Kazakhstan, Central Asia, I'm a Computer Science sophomore at Boston University, 
             fluent in Kazakh, Russian, and English, with additional skills in Turkish and Arabic. 
@@ -85,7 +79,6 @@ function App() {
           </div>
         </section>
 
-
         <section id="contact">
           <h1>03. What's Next?</h1>
           <p>Get in Touch</p>
@@ -101,3 +94,5 @@ function App() {
 }
 
 export default App;
+
+

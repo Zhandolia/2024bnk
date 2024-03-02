@@ -1,9 +1,9 @@
-body, h1, h2, p, ul, li, nav, a {
+/* body, h1, h2, p, ul, li, nav, a {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
   text-decoration: none;
-  color: white;
+  color: '#212121';
 }
 
 h1 {
@@ -13,19 +13,19 @@ h1 {
 
 h2, h3 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700; /* Bold */
+  font-weight: 700; 
   font-size: 64px;
 }
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200; /* Light */
+  font-weight: 200; 
   font-size: 25.6px;
 }
 
 body {
-  background-color: #1a2533; /* Dark blue from image */
-  scroll-snap-type: y mandatory; /* Enables vertical scroll snapping */
+  background-color: '#8e8e8';
+  scroll-snap-type: y mandatory; 
   overflow-y: scroll;
 }
 
@@ -60,14 +60,14 @@ section {
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Changed from center to flex-start */
+  align-items: flex-start; 
   justify-content: center;
-  height: 100vh; /* Forces section to occupy full screen height */
-  scroll-snap-align: start; /* Enables scroll snapping */
+  height: 100vh; 
+  scroll-snap-align: start; 
   overflow-y: hidden;
 }
 
-#hero { /* Assuming "hero" is the ID for the welcome section */
+#hero {
   background: linear-gradient(160deg, #1a2533 60%, #fcd12a 60%);
 }
 
@@ -98,7 +98,7 @@ section {
 
 #projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Decreased the min size for smaller cards */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
   gap: 20px;
   justify-content: center;
   align-items: start;
@@ -106,10 +106,10 @@ section {
 
 .project {
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 15px; /* Decreased padding for smaller container */
+  padding: 15px; 
   border-radius: 10px;
   transition: transform 0.3s ease;
-  max-width: 250px; /* Decreased max-width for smaller container */
+  max-width: 250px; 
   margin: 0 auto;
 }
 
@@ -118,12 +118,12 @@ section {
 }
 
 .project-title {
-  font-size: 1.5em; /* Adjust font size as needed */
+  font-size: 1.5em; 
   margin-bottom: 0.5em;
 }
 
 .project-description {
-  font-size: 1em; /* Adjust font size as needed */
+  font-size: 1em; 
 }
 
 
@@ -158,8 +158,8 @@ html {
 
 .intro-section {
   display: flex;
-  justify-content: space-between; /* Distribute content evenly */
-  align-items: center; /* Center align vertically */
+  justify-content: space-between; 
+  align-items: center;
   padding: 50px 0;
 }
 
@@ -167,7 +167,7 @@ html {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /* Ensures the navbar is above other content */
+  z-index: 1000; 
 }
 
 .intro-section {
@@ -183,7 +183,6 @@ html {
 }
 
 .slideshow {
-  /* Adjust width as necessary */
   width: 40%;
   display: flex;
   justify-content: center;
@@ -228,4 +227,119 @@ html {
 
 img {
   max-width: 100%;
+} */
+
+/* ========================= */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #e8e8e8; 
+  color: #212121; 
+}
+
+img {
+  border-radius: 50%;
+  width: 100px; 
+  height: 100px; 
+  object-fit: cover; 
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff; 
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+}
+
+h1, h2, h3 {
+  color: #212121;
+}
+
+a {
+  color: #212121;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+a:hover {
+  color: #757575;
+}
+
+.experience-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0; 
+}
+
+.experience-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.experience-date {
+  font-style: italic;
+}
+
+.experience-description {
+  text-align: left;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-around; /* Distributes space evenly around nav items */
+  align-items: center; /* Aligns items vertically */
+  padding: 20px;
+  background-color: #212121; /* Fancy black background */
+  color: #e8e8e8; /* Fancy white text color */
+}
+
+#logo {
+  font-size: 24px; /* Larger logo text */
+  font-weight: bold;
+  letter-spacing: 2px; /* More space between letters for readability */
+}
+
+nav a {
+  color: #e8e8e8; /* Fancy white text color */
+  text-decoration: none; /* Removes underline */
+  margin: 0 15px; /* Spacing between nav items */
+  font-size: 16px; /* Larger font size for readability */
+}
+
+nav .resume-link {
+  border: 2px solid #e8e8e8; /* Adds a fancy white border */
+  padding: 5px 10px;
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Enhances the introduction section */
+.intro-section h1, .intro-section h2, .intro-section h3 {
+  color: #212121; /* Fancy black for contrast */
+}
+
+.intro-section h1 {
+  margin-bottom: 0.5em;
+  font-size: 2em; /* Larger font size */
+}
+
+.intro-section h2 {
+  font-size: 2.5em; /* Even larger font size */
+  font-weight: bold;
+}
+
+.intro-section h3 {
+  font-size: 1.5em; /* Moderately large font size */
+  font-style: italic; /* Italicized for emphasis */
 }

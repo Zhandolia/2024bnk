@@ -35,7 +35,7 @@ function App() {
         <section id="about">
           <h1>01. About Me</h1>
           <img src="pfp.jpeg" alt="picture" />
-          <p>
+          {/* <p>
             Hailing from Kazakhstan, Central Asia, I'm a Computer Science sophomore at Boston University, 
             fluent in Kazakh, Russian, and English, with additional skills in Turkish and Arabic. 
             My tech journey began with high school robotics and was amplified at 80edays, Germany, 
@@ -44,7 +44,29 @@ function App() {
             year students using OpenAI, a project that secured significant funding and recognition. 
             I'm eager to connect with professionals who share my passion for innovation and envision 
             a transformative tech future.
-          </p>
+          </p> */}
+          <div class="courses-container">
+            <h2>Relevent Courses</h2>
+            <div class="course">
+              <h3>MA 121: Calculus I</h3>
+            </div>
+            <div class="course">
+              <h3>MA 124: Calculus II</h3>
+            </div>
+            <div class="course">
+              <h3>CS 111: Intro to CS with Python</h3>
+            </div>
+            <div class="course">
+              <h3>CS 112: Intro to CS with Java</h3>
+            </div>
+            <div class="course">
+              <h3>CS 131: Combinatoric Structures</h3>
+            </div>
+            <div class="course">
+              <h3>CS 132: Geometric Algorithms</h3>
+            </div>
+          </div>
+
         </section>
 
         <section id="projects">

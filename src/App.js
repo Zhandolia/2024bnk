@@ -10,8 +10,6 @@ function App() {
     });
   }
 
-  const [currentIndex, setCurrentIndex] = useState(0);
-
   return (
     <div className="container">
       <div className="menu">
@@ -19,7 +17,7 @@ function App() {
           <div id="logo" onClick={handleScrollToTop} href="#" style={{cursor: 'pointer'}}>ZB</div>
           <a href="#about">01. About</a>
           <a href="#projects">02. Projects</a>
-          <a href="#contact">03. Contact</a>
+          <a href="#awards">03. Awards</a>
           <a href="/ZhandosBrownCV.pdf" className="resume-link" target="_blank" rel="noopener noreferrer">Resume</a>
         </nav>
       </div>
@@ -117,14 +115,8 @@ function App() {
 
         </section>
 
-        <section id="contact">
-          <h1>03. What's Next?</h1>
-          <p>Get in Touch</p>
-          <ul>
-            <li><a href="https://www.linkedin.com/in/zhanbrown/">LinkedIn</a></li>
-            <li><a href="mailto: zhandos@bu.edu">Email Me</a></li>
-            <li><a href="/ZhandosBrownCV.pdf" className="resume-link" target="_blank" rel="noopener noreferrer">Resume</a></li>
-          </ul>
+        <section id="awards">
+          <h1>03. Competivive Awards</h1>
         </section>
       </div>
     </div>

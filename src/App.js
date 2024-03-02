@@ -10,19 +10,7 @@ function App() {
     });
   }
 
-  // const images = [
-  //   'nbody1.png',
-  //   'nbody2.png'
-  // ];
-
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentIndex(prevIndex => (prevIndex + 1) % images.length);
-  //   }, 5000);
-  //   return () => clearInterval(interval);
-  // }, []);
 
   return (
     <div className="container">

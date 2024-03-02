@@ -61,6 +61,13 @@ function App() {
               <h3>CS 132: Geometric Algorithms</h3>
             </div>
             <div class="course">
+              <h3>CS 210: Computer Systems</h3>
+            </div>
+            <div class="course">
+              <h3>CS 237: Probability in Computing</h3>
+            </div>
+            
+            <div class="course">
               <h3>MA 121: Calculus I</h3>
             </div>
             <div class="course">

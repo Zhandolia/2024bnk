@@ -16,8 +16,9 @@ function App() {
         <nav>
           <div id="logo" onClick={handleScrollToTop} href="#" style={{cursor: 'pointer'}}>ZB</div>
           <a href="#about">01. About</a>
-          <a href="#projects">02. Projects</a>
-          <a href="#awards">03. Awards</a>
+          <a href="#experiences">02. Experience</a>
+          <a href="#projects">03. Projects</a>
+          <a href="#awards">04. Awards</a>
           <a href="/ZhandosBrownCV.pdf" className="resume-link" target="_blank" rel="noopener noreferrer">Resume</a>
         </nav>
       </div>
@@ -73,8 +74,16 @@ function App() {
 
          </div>
 
+        <section id="experiences">
+          <h2>02. Professional Experience 🧩</h2>
+          <div className="experience">
+            <h2 class="experience-title">80edays - ChargeHotels - iOS Development Intern</h2>
+            <p class="project-description">Led development of feature-rich iOS application for major electric vehicle rally event, leveraging Swift and Figma to create robust and user-friendly interface. Focused on integrating real-time tracking, event updates, and participant engagement to deliver seamless user experience.</p>
+          </div>
+        </section>
+
         <section id="projects">
-          <h1>02. Personal Projects 🌳</h1>
+          <h1>03. Personal Projects 🌳</h1>
           <div className="project">
             <h2 class="project-title">OQIGA.AI | React App | <a href="https://oqiga-ai.vercel.app" target="_blank" rel="noopener noreferrer">oqiga-ai.vercel.app</a></h2>
             <p class="project-description"> Engineered pioneering educational platform using React.js for frontend and Flask for backend, featuring interactive storytelling with parental voice integration achieved through IPython and Google Colab with Jupyter Notebook.</p>
@@ -102,7 +111,7 @@ function App() {
         </section>
 
         <section id="awards">
-          <h1>03. Competitive Awards 🏆</h1>
+          <h1>04. Competitive Awards 🏆</h1>
           <div class="award">
             <h3>2/20 place at MakeHarvard Hackathon</h3>
           </div>
@@ -116,7 +125,7 @@ function App() {
             <h3>4/100 place at International Robotics Competition</h3>
           </div>
         </section>
-        
+
       </div>
     </div>
   );

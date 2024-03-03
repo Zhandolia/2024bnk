@@ -80,8 +80,24 @@ function App() {
             <h2 class="experience-title">80edays | ChargeHotels | iOS Developer Intern</h2>
             <p class="project-description">Led development of feature-rich iOS application for major electric vehicle rally event, leveraging Swift and Figma to create robust and user-friendly interface. Focused on integrating real-time tracking, event updates, and participant engagement to deliver seamless user experience.</p>
           </div>
-        </section>
+          
+          <div className="experience">
+            <h2 class="experience-title">80edays | EcoRoute | Software Engineering Intern</h2>
+            <p class="project-description">Led development of feature-rich iOS application for major electric vehicle rally event, leveraging Swift and Figma to create robust and user-friendly interface. Focused on integrating real-time tracking, event updates, and participant engagement to deliver seamless user experience.</p>
+          </div>
 
+          <div className="experience">
+            <h2 class="experience-title">GHRCCA | Full Stack Web Development Intern</h2>
+            <p class="project-description">Led development of feature-rich iOS application for major electric vehicle rally event, leveraging Swift and Figma to create robust and user-friendly interface. Focused on integrating real-time tracking, event updates, and participant engagement to deliver seamless user experience.</p>
+          </div>
+
+          <div className="experience">
+            <h2 class="experience-title">Gradcompleks Architectural | 3D Design Intern</h2>
+            <p class="project-description">Led development of feature-rich iOS application for major electric vehicle rally event, leveraging Swift and Figma to create robust and user-friendly interface. Focused on integrating real-time tracking, event updates, and participant engagement to deliver seamless user experience.</p>
+          </div>
+
+        </section>
+        
         <section id="projects">
           <h1>03. Personal Projects 🌳</h1>
           <div className="project">

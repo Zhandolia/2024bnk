@@ -221,3 +221,20 @@ nav a {
   color: #212121;
   margin: 0; 
 }
+
+.experience {
+  background-color: #fff; /* White background for each experience */
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.experience h3 {
+  color: #212121; /* Dark text for readability */
+  margin: 0; /* Adjusts default margin */
+}
+
+#experiences h1 {
+  text-align: center;
+}

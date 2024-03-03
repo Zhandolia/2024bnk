@@ -75,9 +75,9 @@ function App() {
          </div>
 
         <section id="experiences">
-          <h2>02. Professional Experience 🧩</h2>
+          <h1>02. Professional Experience 🧩</h1>
           <div className="experience">
-            <h2 class="experience-title">80edays - ChargeHotels - iOS Development Intern</h2>
+            <h2 class="experience-title">80edays | ChargeHotels | iOS Developer Intern</h2>
             <p class="project-description">Led development of feature-rich iOS application for major electric vehicle rally event, leveraging Swift and Figma to create robust and user-friendly interface. Focused on integrating real-time tracking, event updates, and participant engagement to deliver seamless user experience.</p>
           </div>
         </section>

@@ -116,6 +116,7 @@ function App() {
             <h3>4/100 place at International Robotics Competition</h3>
           </div>
         </section>
+        
       </div>
     </div>
   );

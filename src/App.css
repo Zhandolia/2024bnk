@@ -134,8 +134,16 @@ nav a {
   border-radius: 5px; /* Rounded corners */
 }
 
+.course-link {
+  color: blue; /* Makes only the CS 111 link blue */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.course-link:hover {
+  text-decoration: underline; /* Adds underline on hover for better UX */
+}
+
 .course h3 {
-  color: blue; /* Dark text for readability */
   margin: 0; /* Adjusts default margin */
 }
 

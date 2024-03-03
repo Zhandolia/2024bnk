@@ -40,51 +40,37 @@ function App() {
         
         <div class="courses-container">
           <h2>Relevant Courses 📝</h2>
-            <a class="course-button" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-111/">
-              <div class="course">
-                <h3>CS 111: Intro to CS with Python</h3>
-              </div>
-            </a>
-            <a class="course-button" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-112/">
-              <div class="course">
-                <h3>CS 112: Intro to CS with Java</h3>
-              </div>
-            </a>
-            <a class="course-button" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-131/">
-              <div class="course">
-                <h3>CS 131: Combinatoric Structures</h3>
-              </div>
-            </a>
-            <a class="course-button" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-132/">
-              <div class="course">
-                <h3>CS 132: Geometric Algorithms</h3>
-              </div>
-            </a>
-            <a class="course-button" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-210/">
-              <div class="course">
-                <h3>CS 210: Computer Systems</h3>
-              </div>
-            </a>
-            <a class="course-button" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-237/">
-              <div class="course">
-                <h3>CS 237: Probability in Computing</h3>
-              </div>
-            </a>
-            <a class="course-button" target="_blank" href="https://www.bu.edu/academics/hub/courses/hub-xc-475/">
-              <div class="course">
-                <h3>XC 475: Spark! Innovation Program</h3>
-              </div>
-            </a>
-            <a class="course-button" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-ma-121/">
-              <div class="course">
-                <h3>MA 121: Calculus I</h3>
-              </div>
-            </a>
-            <a class="course-button" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-ma-124/">
-              <div class="course">
-                <h3>MA 124: Calculus II</h3>
-              </div>
-            </a>
+          <div class="course">
+            <h3><a class="course-link" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-111/">CS 111</a>: Intro to CS with Python</h3>
+          </div>
+          <div class="course">
+            <h3><a class="course-link" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-112/">CS 112</a>: Intro to CS with Java</h3>
+          </div>
+          <div class="course">
+            <h3><a class="course-link" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-131/">CS 131</a>: Combinatoric Structures</h3>
+          </div>
+          <div class="course">
+            <h3><a class="course-link" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-132/">CS 132</a>: Geometric Algorithms</h3>
+          </div>
+          <div class="course">
+            <h3><a class="course-link" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-210/">CS 210</a>: Computer Systems</h3>
+          </div>
+          <div class="course">
+            <h3><a class="course-link" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-cs-237/">CS 237</a>: Probability in Computing</h3>
+          </div>
+          <div class="course">
+            <h3><a class="course-link" target="_blank" href="https://www.bu.edu/academics/hub/courses/hub-xc-475/">XC 475</a>: Spark! Innovation Program</h3>
+          </div>
+          <div class="course">
+            <h3><a class="course-link" target="_blank" href="https://www.bu.edu/academics/cds/courses/cds-ds-291/">DS 291</a>: Spark! Exploring DEI in Tech</h3>
+          </div>
+          <div class="course">
+            <h3><a class="course-link" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-ma-121/">MA 121</a>: Calculus I</h3>
+          </div>
+          <div class="course">
+            <h3><a class="course-link" target="_blank" href="https://www.bu.edu/academics/cas/courses/cas-ma-124/">MA 124</a>: Calculus II</h3>
+          </div>
+
          </div>
 
         <section id="projects">

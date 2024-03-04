@@ -25,10 +25,17 @@ function App() {
       <div className="content">
         <div className="intro-section">
           <section id="welcome">
-              <img src="prof.jpg" alt="picture" /> 
-              <h1>Zhandos Brown.</h1>
+            <img src="prof.jpg" alt="Zhandos Brown" />
+            <h1>Zhandos Brown.</h1>
+            <div className="social-links">
+              <a href="https://github.com/zhandolia" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/zhanbrown/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://twitter.com/zhandolia" target="_blank" rel="noopener noreferrer">Twitter</a>
+              <a href="mailto:zhandos@bu.edu">Email</a>
+            </div>
           </section>
         </div>
+
         
         <section id="about">
           <h1>01. About 👋</h1>

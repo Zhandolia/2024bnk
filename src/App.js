@@ -22,7 +22,9 @@ function App() {
           <a href="/ZhandosBrownCV.pdf" className="resume-link" target="_blank" rel="noopener noreferrer">Resume</a>
         </nav>
       </div>
+
       <div className="content">
+        
         <div className="intro-section">
           <section id="welcome">
             <img src="prof.jpg" alt="Zhandos Brown" />
@@ -36,7 +38,6 @@ function App() {
           </section>
         </div>
 
-        
         <section id="about">
           <h1>01. About 👋</h1>
           

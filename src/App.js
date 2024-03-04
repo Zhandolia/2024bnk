@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   }
 
   return (
-    <div className="container">
+    <div className={'container'}>
       <div className="menu">
         <nav>
           <div id="logo" onClick={handleScrollToTop} href="#" style={{cursor: 'pointer'}}>ZB</div>

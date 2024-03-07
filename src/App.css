@@ -22,15 +22,14 @@ img {
 
 .social-links a {
   text-decoration: none;
-  color: #212121; /* Change as needed */
-  background-color: #e8e8e8; /* Light grey background for contrast */
-  padding: 10px;
+  color: #212121; 
+  background-color: #e8e8e8;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .social-links a:hover {
-  background-color: #cccccc; /* Darker grey on hover for visual feedback */
+  background-color: #cccccc;
 }
 
 .container {
@@ -89,11 +88,11 @@ a:hover {
 
 nav {
   display: flex;
-  justify-content: space-around; /* Distributes space evenly around nav items */
-  align-items: center; /* Aligns items vertically */
+  justify-content: space-around; 
+  align-items: center; 
   padding: 20px;
-  background-color: #fff; /* Fancy black background */
-  color: #212121; /* Fancy white text color */
+  background-color: #fff;
+  color: #212121;
 }
 
 #logo {

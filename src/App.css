@@ -113,24 +113,23 @@ nav a {
   border-radius: 5px;
 }
 
-/* Enhances the introduction section */
 .intro-section h1, .intro-section h2, .intro-section h3 {
-  color: #212121; /* Fancy black for contrast */
+  color: #212121;
 }
 
 .intro-section h1 {
   margin-bottom: 0.5em;
-  font-size: 2em; /* Larger font size */
+  font-size: 2em;
 }
 
 .intro-section h2 {
-  font-size: 2.5em; /* Even larger font size */
+  font-size: 2.5em;
   font-weight: bold;
 }
 
 .intro-section h3 {
-  font-size: 1.5em; /* Moderately large font size */
-  font-style: italic; /* Italicized for emphasis */
+  font-size: 1.5em;
+  font-style: italic;
 }
 
 .courses-container {
